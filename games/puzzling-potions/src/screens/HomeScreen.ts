@@ -84,7 +84,8 @@ export class HomeScreen extends Container {
 
     /** Resize the screen, fired whenever window size changes  */
     public resize(width: number, height: number) {
-        this.dragon.x = width * 0.5;
+        console.log('width', width);
+        this.dragon.x = width;
         this.dragon.y = height * 0.5;
         this.playButton.x = width * 0.5;
         this.playButton.y = height - 130;

@@ -5,7 +5,7 @@ import * as Puzzle from "@games/puzzling-potions/src/main";
 
 type Props = {};
 
-export default function puzzle({}: Props) {
+export default function PuzzlePage({}: Props) {
   useEffect(() => {
     Puzzle.init();
   }, []);

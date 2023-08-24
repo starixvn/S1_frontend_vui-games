@@ -57,7 +57,6 @@ function visibilityChange() {
 
 /** Setup app and initialise assets */
 export async function init() {
-    debugger;
     document.getElementById('pixi-canvas').appendChild(app.view);
     // Add pixi canvas element (app.view) to the document's body
     // document.body.appendChild(app.view);
